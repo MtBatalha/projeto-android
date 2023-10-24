@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kaushan+Script&family=Montserrat:wght@100&family=Mooli&display=swap');
+:root{
+    --cor00:#84AEBF;
+
+    --fonte-padrão:Arial, Helvetica, sans-serif;
+    --fonte-nova: 'Fredericka the Great', serif;
+}
+body {
+    font-family: var(--fonte-padrão);
+  background-color:var(--cor00);
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3d7e97,
+    #091326);
+    background-attachment: fixed;
+    border: 10px;
+    margin: 3px;
+
+}
+h1#Cabeçalho{
+    font-family: var(--fonte-padrão);
+    text-align: center;
+    color: white;
+}
+p.Cabeçalho{
+    text-align: center;
+    color: white;
+}
+p{
+    color: #F29966;
+    border: 10px;
+    margin: 15px 0px;
+    text-indent: 30px;
+    line-height: 1em;
+}
+nav > a{
+    text-decoration:none ;
+    color: #F29966;
+    font-weight: bolder;
+    border-radius: 5px; 
+    transition-duration: 1s;
+    padding: 3px;
+
+}
+nav > a:hover{
+    background-color: #84AEBF;
+    text-decoration: dotted;
+    font-weight: bolder ;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 10px;
+    
+}
+main img{
+    width: 100%;
+
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+h1#corpo{
+    text-align: left;
+    font-family: 'Alumni Sans Collegiate One', sans-serif, Courier, monospace;
+}
+p#text{
+    text-align: justify;
+}
+footer{
+    background-color: white;
+    padding: 10px;
+    border: 10px;
+    margin: 1px;
+}
+h2{
+    font-family: 'idroid.otf', Courier, monospace; 
+    background-image: linear-gradient(to right, #3d7e97,
+    transparent);
+    text-indent: 8px;
+}
+*{
+    margin: 0px;
+}
+footer {
+    background-color: #3d7e97;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    
+}
+aside > h3 {
+    background-color: #1b3f4d;
+    color: white;
+    padding: 10px;
+    margin: -20px -21px 0px -20px;
+    border-radius: 10px 10px 0px 0px;
+
+
+
+}
+aside > ul {
+
+    list-style-position: inside;
+    columns: 2;
+
+}
+div.video{
+    background-color:#1b3f4d;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+}
